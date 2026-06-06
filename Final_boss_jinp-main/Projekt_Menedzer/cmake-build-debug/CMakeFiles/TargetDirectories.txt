@@ -1,0 +1,3 @@
+C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug/CMakeFiles/AplikacjaMenedzer.dir
+C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

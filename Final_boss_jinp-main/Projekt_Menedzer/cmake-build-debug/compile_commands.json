@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -D_WIN32_WINNT=0x0A00 -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\AplikacjaMenedzer.dir\\main.cpp.obj -c C:\\Final_boss_jinp-main\\Final_boss_jinp-main\\Projekt_Menedzer\\main.cpp",
+  "file": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/main.cpp",
+  "output": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug/CMakeFiles/AplikacjaMenedzer.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -D_WIN32_WINNT=0x0A00 -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\AplikacjaMenedzer.dir\\SzyfratorXOR.cpp.obj -c C:\\Final_boss_jinp-main\\Final_boss_jinp-main\\Projekt_Menedzer\\SzyfratorXOR.cpp",
+  "file": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/SzyfratorXOR.cpp",
+  "output": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug/CMakeFiles/AplikacjaMenedzer.dir/SzyfratorXOR.cpp.obj"
+},
+{
+  "directory": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -D_WIN32_WINNT=0x0A00 -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\AplikacjaMenedzer.dir\\WalidatorSily.cpp.obj -c C:\\Final_boss_jinp-main\\Final_boss_jinp-main\\Projekt_Menedzer\\WalidatorSily.cpp",
+  "file": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/WalidatorSily.cpp",
+  "output": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug/CMakeFiles/AplikacjaMenedzer.dir/WalidatorSily.cpp.obj"
+},
+{
+  "directory": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.1\\bin\\mingw\\bin\\G__~1.EXE -D_WIN32_WINNT=0x0A00 -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\AplikacjaMenedzer.dir\\MenedzerHasel.cpp.obj -c C:\\Final_boss_jinp-main\\Final_boss_jinp-main\\Projekt_Menedzer\\MenedzerHasel.cpp",
+  "file": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/MenedzerHasel.cpp",
+  "output": "C:/Final_boss_jinp-main/Final_boss_jinp-main/Projekt_Menedzer/cmake-build-debug/CMakeFiles/AplikacjaMenedzer.dir/MenedzerHasel.cpp.obj"
+}
+]

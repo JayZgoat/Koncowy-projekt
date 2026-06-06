@@ -1,0 +1,11 @@
+# ninja log v7
+25	1374	8021061776307082	CMakeFiles/AplikacjaMenedzer.dir/WalidatorSily.cpp.obj	46ec97fc6710a00b
+16	1424	8021061776205948	CMakeFiles/AplikacjaMenedzer.dir/SzyfratorXOR.cpp.obj	330b0e436d3492a1
+36	2245	8021061776408025	CMakeFiles/AplikacjaMenedzer.dir/MenedzerHasel.cpp.obj	ebbe017ab417e83f
+7	21727	8021061776120474	CMakeFiles/AplikacjaMenedzer.dir/main.cpp.obj	8ba2713222376086
+21729	47945	8021061993338340	AplikacjaMenedzer.exe	b282b40e7a8a1f2a
+10	16607	8021072775247208	CMakeFiles/AplikacjaMenedzer.dir/main.cpp.obj	8ba2713222376086
+16609	43606	8021072941240597	AplikacjaMenedzer.exe	b282b40e7a8a1f2a
+22	1294	8021081704462233	CMakeFiles/AplikacjaMenedzer.dir/MenedzerHasel.cpp.obj	ebbe017ab417e83f
+13	18641	8021081704361306	CMakeFiles/AplikacjaMenedzer.dir/main.cpp.obj	8ba2713222376086
+18641	45716	8021081890648944	AplikacjaMenedzer.exe	b282b40e7a8a1f2a
