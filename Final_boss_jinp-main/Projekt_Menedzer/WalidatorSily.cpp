@@ -57,5 +57,5 @@ bool WalidatorSily::czyJestSilne(const string& haslo) {
         }
     }
 
-    return spelnioneKryteria >= 5;
+    return spelnioneKryteria >= 6;
 }

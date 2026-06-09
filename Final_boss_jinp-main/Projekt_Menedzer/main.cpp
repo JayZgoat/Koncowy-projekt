@@ -2,15 +2,27 @@
 #include <memory>
 #include <string>
 #include <vector>
+#include <ctime>
 #include "httplib.h"
 #include "WalidatorSily.h"
 #include "SzyfratorXOR.h"
 #include "MenedzerHasel.h"
 
+
+time_t czas_wygasniecia_sesji = 0; //robimy se do zrobienia konca sesji
+
 bool sprawdzSesje(const httplib::Request& req) {
     if (req.has_header("Cookie")) {
         std::string ciastko = req.get_header_value("Cookie");
         if (ciastko.find("sesja=autoryzowany") != std::string::npos) {
+
+            // Jeśli stoper wybił zero - odrzucamy!
+            if (time(nullptr) > czas_wygasniecia_sesji) {
+                return false;
+            }
+
+            // ODNAWIAMY SESJĘ! Przy każdym poprawnym działaniu resetujemy stoper na 5 minut (300 sekund)
+            czas_wygasniecia_sesji = time(nullptr) + 300;
             return true;
         }
     }
@@ -152,7 +164,8 @@ button:active { transform: scale(0.98); }
         std::string pass = req.get_param_value("master-password");
 
         if (user == "admin" && pass == "haslo123") {
-            res.set_header("Set-Cookie", "sesja=autoryzowany; Path=/; HttpOnly");
+            czas_wygasniecia_sesji = time(nullptr) + 300;
+            res.set_header("Set-Cookie", "sesja=autoryzowany; Path=/; HttpOnly; Max-Age=3600");
 
             auto szyfratorXOR = std::dynamic_pointer_cast<SzyfratorXOR>(szyfrator);
             if (szyfratorXOR) {
@@ -167,6 +180,8 @@ button:active { transform: scale(0.98); }
     // WYLOGOWANIE I CZYSZCZENIE KLUCZA
     serwer.Get("/wyloguj", [&](const httplib::Request& req, httplib::Response& res) {
         res.set_header("Set-Cookie", "sesja=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT");
+
+        czas_wygasniecia_sesji = 0;
 
         auto szyfratorXOR = std::dynamic_pointer_cast<SzyfratorXOR>(szyfrator);
         if (szyfratorXOR) {
